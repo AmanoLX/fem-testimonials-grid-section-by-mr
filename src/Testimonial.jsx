@@ -1,4 +1,12 @@
-const Article = ({ name, title, avatar, quote, text, backgroundColor, id }) => {
+const Testimonial = ({
+  name,
+  title,
+  avatar,
+  quote,
+  text,
+  backgroundColor,
+  id,
+}) => {
   const className = `article article-${id}`;
   return (
     <article
@@ -41,4 +49,4 @@ const Article = ({ name, title, avatar, quote, text, backgroundColor, id }) => {
     </article>
   );
 };
-export default Article;
+export default Testimonial;

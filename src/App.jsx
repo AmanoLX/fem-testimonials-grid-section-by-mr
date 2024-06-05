@@ -1,13 +1,13 @@
 import { useState } from 'react';
-import Articles from './Articles';
+import Testimonials from './Testimonials';
 import './index.css';
-import articlesData from './data';
+import testimonialsData from './data';
 
 function App() {
-  const [articles, setArticles] = useState(articlesData);
+  const [testimonials, setTestimonials] = useState(testimonialsData);
   return (
     <main>
-      <Articles articles={articles} />
+      <Testimonials testimonials={testimonials} />
     </main>
   );
 }

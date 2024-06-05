@@ -4,7 +4,7 @@ import jeanetteHarmonImg from './assets/images/image-jeanette.jpg';
 import patrickAbramsImg from './assets/images/image-patrick.jpg';
 import kiraWhittleImg from './assets/images/image-kira.jpg';
 
-const articles = [
+const testimonials = [
   {
     id: 1,
     name: 'Daniel Clifford',
@@ -54,4 +54,4 @@ const articles = [
   },
 ];
 
-export default articles;
+export default testimonials;
